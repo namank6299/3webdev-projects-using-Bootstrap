@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PennyJuice - Juice yoy love.</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Josefin+Sans:ital,wght@1,100&family=Lobster&family=Open+Sans&family=Roboto:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+</head>
+
+<style>
+    /*header section*/
+    .tilt-heading {
+        transform: rotate(-18deg) scale(2.5);
+        line-height: 20px;
+        margin-block-start: 21px;
+        margin-inline-start: 44px;
+    }
+
+    .main-heading {
+        font-family: 'Lobster', cursive;
+        color: rgb(243, 113, 65);
+    }
+
+    @media screen and (max-width: 768px) {
+
+        .top-left {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        .navbar-collapse {
+            flex-basis: 100%;
+            flex-grow: 1;
+            align-items: center;
+            width: 100%;
+            background-color: trasnparent;
+            position: absolute;
+            width: 100%;
+            border-top: 1px solid black;
+            top: calc(65% + 3rem);
+            transition: all 0.4s;
+            left: 0;
+            text-align: center;
+        }
+
+        .tilt-heading {
+            margin-block-end: 22px;
+            margin-block-start: initial;
+        }
+
+        .container,
+        .container-md,
+        .container-sm {
+            max-width: 100%;
+        }
+
+    }
+
+    /*cart and it's logo will always extreme right */
+    @media screen and (min-width: 768px) {
+        a.btn.btn-primary.btn-sm.rounded-pill.ms-2.order-md-3 {
+            position: relative;
+            left: calc(100% - 4rem);
+        }
+
+    }
+</style>
+
+
+
+
+<body>
+    <header class="navbar navbar-expand-md navbar-light fixed-top container">
+        <div class="container"><a class="navbar-brand me-2 me-xl-4 tilt-heading" href=""><span
+                    class="fs-4 my-5 main-heading">Penny<br>Juice</span></a>
+            <div class="top-left py-3">
+                <button class="navbar-toggler ms-auto collapsed my-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <a class="btn btn-primary btn-sm rounded-pill ms-2 order-md-3" href="" target="_blank" rel="noopener"><i
+                        class="fi-cart fs-base me-2"></i>Cart</a>
+                <div class="navbar-collapse order-md-2 collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="./home.html">Home</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./Nutrition.html">Nutrition</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./Our-juice.html">Our Juice</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+</body>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+</html>
