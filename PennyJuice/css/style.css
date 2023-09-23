@@ -1047,6 +1047,10 @@
             margin: 0 auto;
         }
 
+        span.search-heading .curve-wave {
+    display: none;
+}
+
 
     }
 
@@ -1067,6 +1071,10 @@
             width: 100%;
             margin-inline-start: revert;
         }
+
+        span.search-heading .curve-wave {
+    display: none;
+}
 
         .img-box {
             bottom: revert;
